@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('helloWorld');
 });
+
+Route::get('/secondPage', function () {
+    return view('secondPage');
+});
+
+Route::get('/thirdPage', function () {
+    return view('thirdPage');
+});
